@@ -1,0 +1,17 @@
+{
+  "name": "sizani-app-server",
+  "version": "1.0.0",
+  "description": "Server that will locate and notify nearest help service using real-time communication system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Seale Rapolai",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mysql": "^2.14.1",
+    "socket.io": "^2.0.3"
+  }
+}
