@@ -1,0 +1,11 @@
+{
+  "name": "yl-mailer",
+  "version": "1.0.0",
+  "description": "Email system for Youth league social media platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seale Rapolai",
+  "license": "ISC"
+}
