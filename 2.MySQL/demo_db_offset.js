@@ -9,10 +9,10 @@ var con = mysql.createConnection({
 
 con.connect(function(err) {
 	if(err) throw err;
-	console.log("Connect to database!");
-	var sql_query = "INSERT INTO customers (name, address) VALUES ('Company Inc', 'Highway 37')";
-	con.query(sql_query, function(err, result){
+	console.log("Connected to DB!");
+	var sql_query = "SELECT * FROM customers LIMIT 3,5";
+	con.query(sql_query, function(err, result, fields){
 		if(err) throw err;
-		console.log("1 record inserted.");
+		console.log(result);
 	});
 });
