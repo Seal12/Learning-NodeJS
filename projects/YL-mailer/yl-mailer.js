@@ -14,11 +14,13 @@ var CLIENT_SECRETE = "j1pIZAXuQnxPfFsHOESFKDmf";
 var transporter = nodemailer.createTransport({
 	service: 'gmail',
 	auth: {
-		type: 'OAoth2',
+		type: 'OAuth2',
 		user: 'slimseal@gmail.com',
 		clientId: Client_ID,
 		clientSecret: CLIENT_SECRETE,
-		refreshToken: '1/OoORIjRjo_S6v1KXzzUS4UAYa7Px_N-Sy60kRMOaeYg'
+		refreshToken: '1/z-rM2iQS3YYQcrdldI9M5vj4nsTjDMConNF0_-Yz8Xk',
+		//accessToken:"ya29.GlvkBF_5LLS0dEbVr9A5sa-yEEgAC4udMMGBZuR5mUBjrXuU2Nkl3YkN6R9Yl1R4jwxiantTAH6nP0jKAICjLY5wRQfA71hATXyyOsf5qYuOaShEbs8kiFqZlKOD",
+		expires:3600
 	}
 });
 
