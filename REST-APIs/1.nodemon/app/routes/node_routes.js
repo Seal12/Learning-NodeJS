@@ -1,8 +1,8 @@
 //route/note_roiutes.js
 
 module.exports = function(app, db) {
-	app.post('/notes', (req, res) => {
+	app.get('/notes', function(req, res){
 		//Create note here.
-		res.send('Hello');
+		return "Hello";
 	});
 }
